@@ -1,4 +1,3 @@
-# Minimal Portfolio Website
 
 This project features a simple and modern portfolio website created using HTML and CSS. The site emphasizes clarity and minimalism, providing an excellent platform to showcase your projects and skills.
 Features
