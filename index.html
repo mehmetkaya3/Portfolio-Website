@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Portfolio</title>
+    <link rel="stylesheet" href="unique-styles.css">
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #004a9f;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #e3e4e5;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #004a9f;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        section.about {
+            background-color: #f5f7fa;
+            text-align: center;
+        }
+
+        section.projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            background-color: #eaf4ff;
+            padding: 50px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border: 1px solid #d9d9d9;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section.contact {
+            background-color: #f5f5f5;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #004a9f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background-color: #004a9f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #003570;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minimal Portfolio</h1>
+        <p>Designed for simplicity and clarity</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Mehmet Kaya, a web developer with a focus on clean and simple design. I believe in crafting user-centric websites.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A minimal blog design that emphasizes content.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>A single-page app for tracking daily tasks.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:Mehmet.Kaya1@my-aolcc.com">Mehmet.Kaya1@my-aolcc.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mehmet Kaya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
